@@ -1,0 +1,259 @@
+body{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    background-color:white;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font: 1em sans-serif;
+    box-shadow:100vh;
+}
+.container .ben-trai{
+    position: relative;
+    background-color:darkcyan;
+    padding: 40px;
+    font: 1em sans-serif;
+    max-height: 921px;
+}
+.container .ben-phai{
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    padding: 40px;
+    font: 1em sans-serif;
+    max-height: 921px;
+}
+
+.text-bentrai{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    left: 0px;
+    font-weight: bold;
+}
+.img-circle{
+    position: relative;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    overflow:hidden;
+    left: 40px;
+    left: 65px
+}
+img {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+h3 {
+    position: relative;
+    display: flex;
+    color: white;
+    bottom: 20px;
+    font-size: medium;
+    left: 10px;
+    font-weight: 500;
+}
+h4{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    left: 0px;
+    font-weight: bold;
+    bottom: 40px;
+    
+}
+h5 {
+    position: relative;
+    display: flex;
+    color: white;
+    bottom: 80px;
+    font-size: medium;
+    left: 10px;
+    font-weight: 500;
+}
+h6{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    left: 0px;
+    font-weight: bold;
+    bottom: 130px;
+}
+.skill-list{
+    position: relative ;
+    right: 30px;
+    bottom: 180px;
+}
+.skill-list .skill{
+    position: relative;
+    color: white;
+}
+ul{
+    list-style-type: none;
+
+}
+.skill-list .percent{
+    display: block;
+    background-color:rgb(253, 253, 253);
+    width: 110%;
+    height: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+.skill-list .percent div{
+    position: absolute;
+    height: 8px;
+    background: aquamarine;
+    border-radius: 10px;
+}
+.reference{
+    position: relative;
+    color: white;
+    font-size: large;
+    bottom: 170px;
+}
+.reference .title{
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.reference .top{
+    position: relative;
+    font-weight: bold;
+    left: -30px;
+    margin-bottom: 10px;
+    line-height: 2.5;
+}
+.reference .bottom1{
+    position: relative;
+    left: -30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.reference .bottom2{
+    position: relative;
+    left: -30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.name{
+    position: relative;
+    text-align: center;
+    font-size:300%;
+    font-weight:bold;
+    top:0px;
+    color: darkcyan;
+}
+.job {
+    position: relative;
+    top:10px;
+    font-weight: bold;
+    font-size: 120%;
+    color: darkcyan;
+
+}
+.education {
+    position: relative;
+    top: 25px;
+}
+.education .title {
+    position: relative;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: darkcyan;
+    font-weight: bold;
+}
+.education .title .line{
+    position: relative;
+    display: block;
+    background-color: darkcyan;
+    height: 3px;
+    width: 385px;
+    top:-18px;
+    align-content: right;
+    left: 175px;
+}
+.education .top{
+    position: relative;
+    font-weight: bold;
+    left: -30px;
+    margin-bottom: 10px;
+    line-height: 2;
+    color: black;
+    top: -20px;
+    font-size: medium;
+}
+.education .bottom1{
+    position: relative;
+    left: -30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: black;
+    top: -20px;
+    font-size: small;
+    text-align: justify;
+}
+.bar {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+.bar .title{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    left: 50px;
+    position: absolute;
+    top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bar .button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    left: 900px;
+    top: -2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px ;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.button:hover{
+    transform: translateY(-7px);
+}
